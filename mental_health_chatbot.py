@@ -28,6 +28,42 @@ responses = {
             "Kamili Organisation: kamilimentalhealth.org"
         ]
     },
+    r"(sad|down|depressed|huzuni)": {
+        "message_en": "Yo, fam, feeling down? Let’s lift those honest vibes: Write 3 things you’re grateful for to spark some zii. Or talk to a pal to keep it moto. Need a helpline to stay noma?",
+        "message_sw": "Pole, fam, unaskia huzuni? Tuinue vibes zako za honest: Andika vitu 3 unavyoshukuru ili uwasha zii. Ama ongelesha na dem ili uwe moto. Unahitaji nambari ya msaada ili iwe noma?",
+        "resources": [
+            "Befrienders Kenya: +254736542304 or +254722178177",
+            "Mental 360: Visit mental360.or.ke",
+            "Niskize: 0900 620 800"
+        ]
+    },
+    r"(lonely|alone|peke yangu)": {
+        "message_en": "Ayo, fam, feeling solo? Your honest vibes are still fire! Try joining a local crew or vibing with a hobby you love to stay zii. Want a helpline to keep it noma?",
+        "message_sw": "Nakuelewa, fam, unaskia peke yangu? Vibes zako za honest bado ni moto! Jaribu kujiunga na crew ya mtaa au kushuka na hobby unayopenda ili uwe zii. Unahitaji nambari ya msaada ili iwe noma?",
+        "resources": [
+            "Befrienders Kenya: +254722178177",
+            "CBT Kenya: +254739935333",
+            "Kamili Organisation: kamilimentalhealth.org"
+        ]
+    },
+    r"(tired|no motivation|uchovu)": {
+        "message_en": "Yo, fam, motivation dipping? Let’s recharge those honest vibes: Set one small goal today, like a 5-min walk, to feel noma. Wanna try or grab a helpline to stay moto?",
+        "message_sw": "Pole, fam, uchovu unakushika? Turecharge vibes zako za honest: Weka goal moja ndogo leo, kama kutembea dakika 5, ili uwe noma. Unataka kujaribu au kuchukua nambari ya msaada ili uwe moto?",
+        "resources": [
+            "Befrienders Kenya: +254736542304 or +254722178177",
+            "Mental 360: mental360.or.ke",
+            "EMKF Crisis Line: 0800 723 253"
+        ]
+    },
+    r"(overwhelmed|too much|nimechoka)": {
+        "message_en": "Ayo, fam, feeling overwhelmed? Let’s keep your honest vibes zii: Write down one thing to tackle today and take it slow. Want more noma tips or a helpline to stay moto?",
+        "message_sw": "Nakuelewa, fam, unaskia nimechoka? Tushike vibes zako za honest zii: Andika kitu moja ya kushughulikia leo na uchukue polepole. Unataka tips za noma au nambari ya msaada ili uwe moto?",
+        "resources": [
+            "Befrienders Kenya: +254722178177",
+            "CBT Kenya: +254739935333",
+            "Niskize: 0900 620 800"
+        ]
+    },
     r"(help|support|msaada)": {
         "message_en": "You ain’t solo, fam! Here’s some lit resources to keep your honest vibes strong and noma.",
         "message_sw": "Hauko peke yako, fam! Hapa kuna rasilimali za moto ili kuweka vibes zako za honest imara na noma.",
