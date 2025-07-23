@@ -4,9 +4,9 @@ from supabase import create_client, Client
 import os
 
 # Supabase setup (optional, comment out if not using)
-SUPABASE_URL = os.getenv("SUPABASE_URL", "your-supabase-url")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY", "your-supabase-key")
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+# SUPABASE_URL = os.getenv("SUPABASE_URL", "your-supabase-url")
+# SUPABASE_KEY = os.getenv("SUPABASE_KEY", "your-supabase-key")
+# supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Response dictionary with English and Swahili triggers
 responses = {
