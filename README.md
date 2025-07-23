@@ -28,7 +28,7 @@ GitHub account (for Streamlit Cloud deployment)
 Setup Instructions
 1. Clone or Download the Project
 
-Clone the repo: git clone https://github.com/your-username/ChatHonest.git
+Clone the repo: git clone [https://github.com/your-username/ChatHonest.git]
 Or download the ZIP and extract to a folder (e.g., C:\Users\YourName\ChatHonest).
 Open the folder in VSCode: File > Open Folder.
 
@@ -38,16 +38,6 @@ Open VSCode’s terminal (Ctrl+` or View > Terminal).
 Navigate to the project folder: cd path/to/ChatHonest.
 Install packages: pip install -r requirements.txt
 This installs streamlit and supabase. If errors, try pip install streamlit supabase.
-
-
-
-3. (Optional) Set Up Supabase
-
-Sign up at supabase.com and create a project.
-Get your Supabase URL and Key from the project settings.
-Set environment variables in VSCode’s terminal:
-Windows: set SUPABASE_URL=your-supabase-url and set SUPABASE_KEY=your-supabase-key
-Mac/Linux: export SUPABASE_URL=your-supabase-url and export SUPABASE_KEY=your-supabase-key
 
 
 Create a helplines table in Supabase:
